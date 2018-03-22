@@ -17,7 +17,7 @@ public class Core {
      */
     public Core() {
         try {
-            this.socket = SocketBuilder.getSocket();
+            socket = SocketBuilder.getSocket();
         } catch (IOException ex){
             ex.printStackTrace();
         }
